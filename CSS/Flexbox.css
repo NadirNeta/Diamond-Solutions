@@ -1,0 +1,94 @@
+/*MENU*/
+
+    
+.menu {
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(63, 156, 201);
+    list-style-type: none;
+
+}
+
+
+
+
+
+.menu__item {
+    flex-grow: 1;
+	margin: 5px 20px;
+    padding: 10px;
+	text-align: center;
+    border-width: thin;
+    border-color: white;
+    border-style: solid;
+    border-radius: 5px;
+}
+
+
+
+
+
+
+
+/* SERVICOS */
+
+
+.servicos > h2 {
+    font-size: 3em;
+    margin-bottom: 50px;
+    
+}
+
+.servicos__item {
+
+        display: flex;
+        justify-content: space-around;
+        color: rgb(36, 86, 134);
+        list-style-type: none;
+    
+    }
+
+
+
+/*RODAPÉ*/
+
+
+
+    .rodape {
+        background-color: rgb(62, 157, 201);;
+        display: flex;
+        justify-content: space-around;
+        color:white;
+        list-style-type: none;
+        margin-top: 50px ; 
+        padding-top: 20px;
+
+    }
+
+
+
+
+/* ARTIGOS */
+
+
+
+    .artigo {
+        display: flex;
+       flex-direction: row;
+       column-gap: 3rem;
+       
+    }
+
+    .mp{
+
+        text-align: left;
+    }
+    .mp > h2 {
+        margin-left: -20px;
+        text-align: left;
+    }
+
+    .redes > h2 {
+        margin-right: -20px;
+        text-align: right;
+    }
